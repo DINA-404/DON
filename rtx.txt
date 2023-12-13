@@ -18,7 +18,7 @@ def chk():
   uuid = str(os.geteuid())
   id = "yes"
   try: 
-    httpCaht = requests.get("رابط").text
+    httpCaht = requests.get("https://github.com/GOLD-404/RTX/raw/main/BAD-RTX.py").text
     if id in httpCaht:
       
       msg = str(os.geteuid())
